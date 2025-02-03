@@ -1,0 +1,47 @@
+.ingredients-swiper {
+  width: 100%;
+  padding: 2rem;
+}
+
+.ingredients-swiper .swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: auto;
+}
+
+.swiper-pagination-bullet {
+  background: rgba(255, 255, 255, 0.5) !important;
+}
+
+.swiper-pagination-bullet-active {
+  background: #D4AF37 !important;
+}
+
+/* Card effect styles */
+.swiper-slide {
+  transform: scale(0.85);
+  opacity: 0.5;
+  transition: all 0.3s ease;
+}
+
+.swiper-slide-active {
+  transform: scale(1);
+  opacity: 1;
+}
+
+/* Custom navigation buttons */
+.swiper-button-next,
+.swiper-button-prev {
+  color: #D4AF37 !important;
+  background: rgba(255, 255, 255, 0.1);
+  width: 40px !important;
+  height: 40px !important;
+  border-radius: 50%;
+  backdrop-filter: blur(4px);
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  font-size: 1.2rem !important;
+}
